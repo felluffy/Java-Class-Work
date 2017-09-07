@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=Part2
-comment1.params=DNA\ startCodon\ endCodon
-comment1.target=java.lang.String\ findSimpleGene(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment2.params=
-comment2.target=void\ testSimpleGene()
-numComments=3
+comment1.params=s
+comment1.target=boolean\ isUpperCase(java.lang.String)
+comment2.params=s
+comment2.target=boolean\ isLowerCase(java.lang.String)
+comment3.params=DNA\ startCodon\ endCodon
+comment3.target=java.lang.String\ findSimpleGene(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.params=
+comment4.target=void\ testSimpleGene()
+numComments=5
