@@ -18,6 +18,15 @@ public class Part3
         else
             return true;
     }
+    
+    String lastPart(String stringa, String stringb)
+    {
+        int index = stringb.indexOf(stringa);
+        if(index == -1)
+            return stringb;
+        else 
+            return stringb.substring(index + stringa.length());
+    }
     void test()
     {
         String stringa = "by";
