@@ -22,12 +22,12 @@ public class Part3
     {
         String stringa = "by";
         String stringb = "A story by Abby Long";
-        System.out.println(twoOccurences(stringa, stringb));
+        System.out.println("First string: " + stringa + "\nSecond string: " + stringb + "\nThey match?: " + twoOccurences(stringa, stringb));
         stringa = "a";
         stringb = "banana";
-        System.out.println(twoOccurences(stringa, stringb));
+        System.out.println("First string: " + stringa + "\nSecond string: " + stringb + "\nThey match?: " + twoOccurences(stringa, stringb));
         stringa = "atg";
         stringb = "ctgtatgta";
-        System.out.println(twoOccurences(stringa, stringb));
+        System.out.println("First string: " + stringa + "\nSecond string: " + stringb + "\nThey match?: " + twoOccurences(stringa, stringb));
     }
 }
