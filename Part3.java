@@ -38,5 +38,14 @@ public class Part3
         stringa = "atg";
         stringb = "ctgtatgta";
         System.out.println("First string: " + stringa + "\nSecond string: " + stringb + "\nThey match?: " + twoOccurences(stringa, stringb));
+        stringa = "an";
+        stringb = "banana";
+        System.out.println("The part of the string after " + stringa + " in " + stringb + " is " + lastPart(stringa, stringb));
+        stringa = "zoo";
+        stringb = "forest";
+        System.out.println("The part of the string after " + stringa + " in " + stringb + " is " + lastPart(stringa, stringb));        
+        stringa = "wunderbar";
+        stringb = "drusselstein";
+        System.out.println("The part of the string after " + stringa + " in " + stringb + " is " + lastPart(stringa, stringb));
     }
 }
